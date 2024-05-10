@@ -27,7 +27,7 @@ jobs:
           node-version: "14"
 
       - name: Install Next.js globally
-        run: npm install -g next@18.17.0
+        run: npm install -g next
 
       - name: Install dependencies
         run: npm install
