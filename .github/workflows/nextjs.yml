@@ -21,13 +21,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Node.js 14
+      - name: Install Node.js 18
         uses: actions/setup-node@v2
         with:
           node-version: "14"
 
       - name: Install Next.js globally
-        run: npm install -g next@14.2.3
+        run: npm install -g next@18.17.0
 
       - name: Install dependencies
         run: npm install
