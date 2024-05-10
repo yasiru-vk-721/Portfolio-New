@@ -1,9 +1,26 @@
-import React from 'react'
+import MobileNav from '@/Components/MobileNav';
+import Nav from '@/Components/Nav'
+import React, { useState } from 'react'
 
-const index = () => {
+const Homepage = () => {
+  	const [nav, setNav] = useState(false);
+    const  openNav = () => setNav(true);
+    const closeNav = () => setNav(false);
+
+
+
   return (
-    <div>index</div>
+  <div className='overflow-x-hidden'>
+    <div>
+      <MobileNav nav={nav} closeNav={closeNav}/>
+      <Nav openNav={openNav}/>
+    </div>
+    
+  </div>
+  
+
   )
 }
 
-export default index
+
+export default Homepage
