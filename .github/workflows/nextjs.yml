@@ -31,6 +31,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Install Next.js globally
+        run: npm install -g next@14.2.3
+
+      - name: Build with Next.js
+        run: npx --no-install next build
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: Detect package manager
         id: detect-package-manager
         run: |
