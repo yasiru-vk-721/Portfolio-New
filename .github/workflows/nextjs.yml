@@ -49,7 +49,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "14"
           cache: ${{ env.manager }}
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -72,7 +72,7 @@ jobs:
       - name: Install dependencies
         run: npx --no-install npm ci
       - name: Build with Next.js
-        run: ${{ steps.detect-package-manager.outputs.runner }} next build
+        run: npx --no-install next build
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
@@ -94,4 +94,3 @@ jobs:
           path: .next
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
-
