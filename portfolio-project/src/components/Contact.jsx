@@ -31,7 +31,7 @@ export const ContactUs = () => {
       </AboutSection>
       <FormContainer>
         <StyledContactForm>
-        <form ref={form} onSubmit={sendEmail}>
+          <form ref={form} onSubmit={sendEmail}>
             <label className="text-black">Name</label>
             <input type="text" name="user_name" className="text-gray-800" />
             <label className="text-black">Email</label>
@@ -80,11 +80,15 @@ const FormContainer = styled.div`
   margin-top: -80px;
   padding: 100px;
   box-sizing: border-box;
+
+  @media screen and (max-width: 768px) {
+    padding: 50px;
+  }
 `;
 
 const StyledContactForm = styled.div`
   width: 100%;
-  max-width: 400px; // Max width for larger screens
+  max-width: 800px; // Max width for larger screens
   background: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
