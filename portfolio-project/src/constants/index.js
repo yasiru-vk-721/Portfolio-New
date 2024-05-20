@@ -1,6 +1,6 @@
-import image1 from "../assets/image.png"
 import image2 from "../assets/CP.jpg"
-
+import image1 from "../assets/2 (2).png"
+import image3 from "../assets/1.png"
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -56,14 +56,14 @@ export const PROJECTS = [
   },
   {
     title: "Sliding Puzzle",
-    image: image2,
+    image: image1,
     description:
       "Tasked with navigating a grid-based map from a designated start to finish point while manoeuvring through frictionless ice and avoiding obstacles, I devised a comprehensive solution. This involved translating the grid map into a graph data structure and implementing the BFS algorithm as a path-finding algorithm.",
     technologies: ["Java"],
   },
   {
     title: "Portfolio Website",
-    image: image2,
+    image: image3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React.js", "TailwindCss", "HTML"],
