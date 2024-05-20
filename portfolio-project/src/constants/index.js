@@ -2,6 +2,9 @@ import image2 from "../assets/CP.jpg"
 import image1 from "../assets/2 (2).png"
 import image3 from "../assets/1.png"
 import image4 from "../assets/movie-hub.png"
+import image5 from "../assets/ec.png"
+import image6 from "../assets/ff.png"
+
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -78,14 +81,14 @@ export const PROJECTS = [
   },
   {
     title: "Finacial Forecasting Model",
-    image: image2,
+    image: image6,
     description:
       "Undertook a project in financial forecasting utilizing neural network techniques, specifically focusing on predicting one-step-ahead exchange rates for USD/EUR. Utilized daily exchange rate data and experimented with autoregressive approaches, constructing input/output matrices and normalizing data. Evaluated multiple MLP models with various internal structures using standard statistical indices.",
     technologies: ["R"],
   },
   {
     title: "Explore Ceylon",
-    image: image2,
+    image: image5,
     description:
       " Developed a comprehensive website, Explore Ceylon in collaboration with three colleges. The website serves as a one-stop destination for users to discover attractions, learn about Sri Lankan culture, explore local cuisine, and access transportation information.",
     technologies: ["HTML", "CSS", "Javascript"],
