@@ -1,6 +1,7 @@
 import image2 from "../assets/CP.jpg"
 import image1 from "../assets/2 (2).png"
 import image3 from "../assets/1.png"
+import image4 from "../assets/movie-hub.png"
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -67,6 +68,13 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React.js", "TailwindCss", "HTML"],
+  },
+  {
+    title: "Movie-Hub",
+    image: image4,
+    description:
+      "Movie Hub is a dynamic web application designed to help users search for movies efficiently. Developed using React.js, Tailwind CSS, and Framer Motion, this application offers a seamless and visually appealing user experience. By leveraging the public OMDB API, Movie Hub provides comprehensive movie data including titles, descriptions, release dates, and ratings. ",
+    technologies: ["React.js", "TailwindCss", "Framer Motions"],
   },
   {
     title: "Finacial Forecasting Model",
